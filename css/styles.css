@@ -7,6 +7,7 @@
   --color-blue: #222374;
   --text-white: #fff;
   --light-gray: #ccc;
+  --color-black: #000;
 }
 
 /* CSS RESET */
@@ -111,9 +112,60 @@ body {
 .section-modalities-container h2 {
   color: var(--color-red);
   margin-bottom: 40px;
+  font-size: 32px;
+  font-weight: 700;
 }
 
 .section-modalities-container .card h3,
 .section-modalities-container .card p {
-    color: var(--text-white);
+  color: var(--text-white);
+}
+
+/*   FOOTER   */
+
+.footer-container {
+  width: 1200px;
+  height: 262px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.footer-content-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 142px;
+}
+
+.footer-content {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-content span {
+  display: flex;
+  align-items: center;
+}
+
+.footer-content span img {
+  padding: 5px 10px;
+}
+
+.footer-content a {
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.footer-info p {
+  color: white;
+  line-height: 19px;
+  text-align: center;
+  font-size: 14px;
 }
