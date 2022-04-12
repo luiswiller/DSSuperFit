@@ -169,3 +169,10 @@ body {
   text-align: center;
   font-size: 14px;
 }
+
+.footer-info address {
+  color: var(--text-white);
+  line-height: 19px;
+  text-align: center;
+  font-size: 14px;
+}
